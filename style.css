@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
+/* desde aqui definiremos, colores de fondo y margenes */
 body {
     display: flex;
     justify-content: center;
@@ -186,12 +186,12 @@ p {
 .descripcion .caja {
     display: flex;
     flex-direction: row;
-    margin: 20px 0;
+    margin: 25px 0;
 }
 
 .descripcion .caja .año_trabajo {
-    min-width: 150px;
-    margin-right: 20px;
+    min-width: 180px;
+    margin-right: 55px;
 }
 
 .descripcion .caja .año_trabajo h5 {
@@ -254,7 +254,7 @@ p {
     font-size: 18px;
     width: 20px;
 }
-
+/* en esta parte ocuparemos la configuracion para el responsive */
 @media (max-width: 1000px) {
     .contenedor {
         margin: 10px;
